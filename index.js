@@ -68,6 +68,7 @@ client.on('messageDelete', message => {
 process.on('unhandledRejection', error => {
   console.error('Yakalanmamış hata:', error);
 });
+
 // Sunucu oluşturma ve proje aktivitesi sağlama.
 const express = require('express');
 const app = express();
