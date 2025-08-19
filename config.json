@@ -1,0 +1,14 @@
+{
+  "token": "Bot-Token",
+  "prefix": ".",
+  "emoji": "📌",
+  "ownerID": "Owner-ID",
+  "version": "1.0",
+  "status": [
+    "www.youtube.com/@swenzyimm",
+    "discord.gg/react",
+    "www.youtube.com./@swenzyimm",
+    "discord.gg/react"
+  ],
+  "statusInterval": 30000
+}
