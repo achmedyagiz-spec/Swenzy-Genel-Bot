@@ -1,14 +1,14 @@
 {
-  "name": "lizzard",
+  "name": "Swenzy-Genel-Bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "lizzardxrd",
+  "author": "Swenzy-Genel-Bot",
   "license": "MIT",
-  "description": "Lizzard tarafından geliştirilen v14 bir genel bot",
+  "description": "@swenzyim Tarafindan Yapilmisdir.",
   "dependencies": {
     "discord.js": "^14.19.3",
     "node-fetch": "^2.7.0"
