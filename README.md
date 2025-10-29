@@ -1,4 +1,4 @@
-# ExCode Genel Bot ~ swenzy presents
+# ExCode Genel Bot ~ by swenzy
 ---
 
 ### Nasıl Kurulur?
