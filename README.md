@@ -1,4 +1,4 @@
-# ExCode Genel Bot ~ by swenzy
+# Genel Bot ~ by swenzy
 ---
 
 ### Nasıl Kurulur?
@@ -16,5 +16,5 @@
 
 ## Hata Aldıysan Discord Sunucumuza Gelebilirsin!
 
-[![Discord Banner](https://api.weblutions.com/discord/invite/bdfd/)](https://discord.gg/bdfd)
+[![Discord Banner](https://api.weblutions.com/discord/invite/dre6UuQD/)](https://discord.gg/dre6UuQD)
 
