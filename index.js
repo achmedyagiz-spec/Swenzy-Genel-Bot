@@ -1,13 +1,10 @@
 import "dotenv/config";
-import assert from 'assert';
 import { Client, GatewayIntentBits, Collection, Partials } from "discord.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-const config = JSON.parse(
-  fs.readFileSync(new URL("./config.json", import.meta.url))
-);
+import config from './config.json' with { type: 'json' };
 
 import chalk from "chalk";
 
