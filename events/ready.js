@@ -9,9 +9,9 @@ export async function execute(client) {
   client.user.setPresence({
     activities: [
       {
-        name: "made by swènzy",
+        name: "made by punisherizm",
         type: 1, // STREAMING
-        url: "https://twitch.tv/swenzyim"
+        url: "punisherizm"
       }
     ],
     status: "dnd"
