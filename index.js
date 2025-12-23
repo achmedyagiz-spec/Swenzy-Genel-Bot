@@ -9,7 +9,7 @@ const config = JSON.parse(
   fs.readFileSync(new URL("./config.json", import.meta.url))
 );
 
-const chalk = require("chalk");
+import chalk from "chalk";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
