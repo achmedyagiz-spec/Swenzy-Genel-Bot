@@ -3,6 +3,7 @@ import { Client, GatewayIntentBits, Collection, Partials } from "discord.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import assert from 'assert';
 
 const config = JSON.parse(
   fs.readFileSync(new URL("./config.json", import.meta.url))
