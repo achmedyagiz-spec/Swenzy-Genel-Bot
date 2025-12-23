@@ -1,9 +1,9 @@
 import "dotenv/config";
-const assert = require('assert');
-const { Client, GatewayIntentBits, Collection, Partials } = require("discord.js");
-const fs = require("fs");
-const path = require('path');
-const { fileURLToPath } = require("url");
+import assert from 'assert';
+import { Client, GatewayIntentBits, Collection, Partials } from "discord.js";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const config = JSON.parse(
   fs.readFileSync(new URL("./config.json", import.meta.url))
