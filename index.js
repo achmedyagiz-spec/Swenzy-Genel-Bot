@@ -9,7 +9,7 @@ const config = JSON.parse(
   fs.readFileSync(new URL("./config.json", import.meta.url))
 );
 
-import chalk from "chalk";
+const chalk = require("chalk");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -89,7 +89,7 @@ client.login(process.env.TOKEN)
     console.error(err);
   });
 // Sunucu oluşturma ve proje aktivitesi sağlama.
-import express from 'express';
+const express = require('express');
 const app = express();
 const port = 3000;
 
