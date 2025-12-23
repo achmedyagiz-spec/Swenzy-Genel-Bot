@@ -1,4 +1,4 @@
-require "dotenv/config";
+require("dotenv/config");
 const assert = require('assert');
 const { Client, GatewayIntentBits, Collection, Partials } = require("discord.js");
 const fs = require("fs");
