@@ -58,7 +58,7 @@ try {
   console.error(chalk.red("❌ Event yükleme hatası:"), error);
 }
 
-client.login(config.token)
+client.login(process.env.TOKEN)
   .then(() => {
     console.log(chalk.greenBright("\n💫 SWENZY PROJECT Başarıyla Aktif Edildi!"));
     console.log(chalk.white(`🤖 ${client.user.tag} olarak giriş yapıldı!`));
