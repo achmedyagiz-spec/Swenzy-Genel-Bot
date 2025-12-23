@@ -1,4 +1,5 @@
 import "dotenv/config";
+import assert from 'assert';
 import { Client, GatewayIntentBits, Collection, Partials } from "discord.js";
 import fs from "fs";
 import path from "path";
