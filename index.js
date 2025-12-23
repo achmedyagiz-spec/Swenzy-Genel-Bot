@@ -82,3 +82,16 @@ client.login(config.token)
     console.error(chalk.redBright("\n❌ Bot giriş yapamadı! Token yanlış veya geçersiz."));
     console.error(err);
   });
+// Sunucu oluşturma ve proje aktivitesi sağlama.
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Web sunucu
+app.get('/', (req, res) => {
+  res.sendStatus(200);
+});
+
+app.listen(port, () => {
+  console.log(`Sunucu ${port} numaralı bağlantı noktasında yürütülüyor.`);
+});
