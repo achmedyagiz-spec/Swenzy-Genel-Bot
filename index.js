@@ -88,7 +88,7 @@ client.login(process.env.TOKEN)
     console.error(err);
   });
 // Sunucu oluşturma ve proje aktivitesi sağlama.
-const express = require('express');
+const express = import('express');
 const app = express();
 const port = 3000;
 
